@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="fr1" type="fraction">85%</item>
+    <item name="fr9" type="fraction">90%</item>
+    <item name="fr100" type="fraction">95%</item>
+    <item name="fr45" type="fraction">40%</item>
+</resources>

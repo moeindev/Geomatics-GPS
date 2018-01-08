@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:title="@string/list_preference_show_coordinate_system_title"
+        android:summary="@string/list_preference_show_coordinate_system_summery"
+        android:key="@string/list_preference_show_coordinate_system_key"
+        android:defaultValue="1"
+        android:icon="@drawable/ic_slideshow_black_24dp"
+        android:entries="@array/list_preference_show_coordinate_system_array"
+        android:entryValues="@array/list_preference_show_coordinate_system_keys"
+        />
+
+    <ListPreference
+        android:icon="@drawable/ic_save_black_24dp"
+        android:title="@string/list_preference_save_coordinate_system_title"
+        android:summary="@string/list_preference_save_coordinate_system_summery"
+        android:key="@string/list_preference_save_coordinate_system_key"
+        android:defaultValue="1"
+        android:entries="@array/list_preference_save_coordinate_system_array"
+        android:entryValues="@array/list_preference_save_coordinate_system_keys"
+        />
+</PreferenceScreen>

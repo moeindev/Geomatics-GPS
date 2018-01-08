@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="95dp">
+    <EditText
+        android:id="@+id/table_name_input"
+        android:gravity="center"
+        android:hint="@string/table_name_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="10"
+        android:inputType="text"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"/>
+    <TextView
+        android:id="@+id/guide_text"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/table_name_guide"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

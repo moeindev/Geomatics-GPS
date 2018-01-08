@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/detail_delete_project"
+        android:title="@string/detail_delete_project"
+        android:icon="@drawable/ic_delete_white_24dp"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/detail_save_as_project"
+        android:title="@string/detail_save_project"
+        android:icon="@drawable/ic_save_white_24dp"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/detail_add_project"
+        android:title="@string/detail_add_project"
+        android:icon="@drawable/ic_playlist_add_white_24dp"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/detail_show_in_map"
+        android:icon="@drawable/ic_map_white_24dp"
+        android:title="@string/detail_show_in_map"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/detail_guide"
+        android:title="@string/detail_guide_project"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/detail_settings"
+        android:title="@string/nav_setting"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">جی پی اس ژئوماتیک</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="nav_coordinate">مبدل مختصات</string>
+    <string name="nav_setting">تنظیمات</string>
+    <string name="nav_about">درباره</string>
+    <string name="nav_rate_us">رای دادن به برنامه</string>
+    <string name="nav_other_apps">دیگر اپلیکیشن ها</string>
+    <string name="nav_donate">حمایت مالی </string>
+    <string name="nav_share">اشتراک گذاری برنامه</string>
+    <string name="nav_other">دیگر</string>
+    <string name="nav_guide">راهنما</string>
+    <string name="row_project_show">نمایش اطلاعات</string>
+    <string name="dialog_permission_message">برای اجرای صحیح برنامه نیاز است به برنامه این دسترسی داده شود</string>
+    <string name="dialog_permission_button">باشه</string>
+    <string name="row_p_name">نام پروژه:</string>
+    <string name="row_p_count">تعداد نقاط:</string>
+    <string name="table_name_hint">نام پروژه جدید</string>
+    <string name="table_name_guide">برای انتخاب نام پروژه از حروف انگلیسی و بدون فاصله استفاده کنید.</string>
+    <string name="dialog_table_title">ساخت پروژه جدید</string>
+    <string name="dialog_table_create">ساخت پروژه</string>
+    <string name="dialog_table_cancel">انصراف</string>
+    <string name="dialog_warning_empty">این فیلد نباید خالی باشد</string>
+    <string name="dialog_warning_space">این فیلد نباید فاصله داشته باشد</string>
+    <string name="dialog_is_open">انتخاب پروژه</string>
+    <string name="list_preference_show_coordinate_system_title">سیستم مختصات نمایش </string>
+    <string name="list_preference_show_coordinate_system_summery">از طریق این گزینه میتوانید سیستم مختصات خود را برای نمایش تنظیم کنید.</string>
+    <string name="list_preference_show_coordinate_system_key">showCoordinate</string>
+    <string-array name="list_preference_show_coordinate_system_array">
+        <item>Latitude And Longitude</item>
+        <item>UTM WGS 1984</item>
+    </string-array>
+    <string-array name="list_preference_show_coordinate_system_keys">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="settings">تنظیمات</string>
+    <string name="list_preference_save_coordinate_system_title">سیستم مختصات ذخیره </string>
+    <string name="list_preference_save_coordinate_system_summery">از طریق این گزینه میتوانید سیستم مختصات خود را برای ذخیره تنظیم کنید.</string>
+    <string name="list_preference_save_coordinate_system_key">saveCoordinate</string>
+    <string-array name="list_preference_save_coordinate_system_array">
+        <item>Latitude And Longitude</item>
+        <item>UTM WGS 1984</item>
+    </string-array>
+    <string-array name="list_preference_save_coordinate_system_keys">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="detail_delete_project">پاک کردن پروژه</string>
+    <string name="detail_save_project">ذخیره پروژه</string>
+    <string name="detail_add_project">اضافه کردن نقاط</string>
+    <string name="detail_show_in_map">نمایش در نقشه</string>
+    <string name="detail_guide_project">راهنما</string>
+    <string name="delete_project_dialog_title">هشدار پاک شدن پروژه</string>
+    <string name="delete_project_dialog_message">آیا میخواهید این پروژه را پاک کنید؟؟!</string>
+    <string name="delete_project_dialog_p_button">آره پاک کن</string>
+    <string name="delete_project_dialog_n_button">نه پاک نکن!</string>
+    <string name="p_dialog_create_file">در حال ساخت خروجی</string>
+    <string name="empty_row_dialog_title">اخطار!!</string>
+    <string name="empty_row_dialog_message">پروژه شما خالی می باشد. آیا می خواهید عملیات را شروع کنید و نقاط را برداشت کنید؟</string>
+    <string name="empty_row_dialog_p_btn">آره شروع کن!</string>
+    <string name="empty_row_dialog_n_btn">نه فعلا نه!</string>
+    <string name="row_point_delete">پاک کردن نقطه</string>
+    <string name="row_delete_dialog_title">هشدار پاک شدن نقطه</string>
+    <string name="row_delete_dialog_dialog_message">آیا میخواهید این نقطه را پاک کنید؟!</string>
+    <string name="title_activity_show_points_in_map">Map</string>
+    <string name="time_idle_tx">زمان برداشت بین دو نقطه : </string>
+    <string name="btn_start">شروع برداشت</string>
+    <string name="btn_stop">توقف برداشت</string>
+    <string name="lbl_not_started">شروع نشده</string>
+    <string name="lbl_started">شروع شده</string>
+    <string name="dialog_gps_title">هشدار</string>
+    <string name="dialog_gps_message">لطفا جی پی اس دستگاه را روشن نمایید</string>
+    <string name="dialog_gps_btn">روشن کن!</string>
+    <string name="title_loc">افزودن نقطه به پروژه :‌ </string>
+    <string name="lat">Latitude</string>
+    <string name="lon">Longitude</string>
+    <string name="east">Easting</string>
+    <string name="north">Northing</string>
+    <string name="zone_number"> Zone Number </string>
+    <string name="zone_letter"> Zone Letter </string>
+    <string name="convert">مبدل مختصات</string>
+    <string name="latitudeandlongitude"> Latitude and Longitude : </string>
+    <string name="utm"> Universal Transfer Mercator : </string>
+    <string name="error_empty">این فیلد باید پر شود</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">mor</string>
+    <string name="title_ab">درباره</string>
+    <string name="title_ms">طراحی و توسعه : محمد معین عبدی </string>
+    <string name="ok_ms">اوکی</string>
+</resources>
